@@ -230,6 +230,19 @@ main {
     background: transparent;
     padding: 0;
     cursor: pointer;
+    display: none;
+}
+
+.btn-menu-close.active {
+    display: none;
+}
+
+.btn-menu-close {
+    display: none;
+}
+
+.btn-menu-close.active {
+    display: block;
 }
 
 @media screen and (max-width:1200px) {
@@ -264,6 +277,9 @@ main {
     }
     .nav_item_list {
         display: none;
+    }
+    .btn-menu {
+        display: block;
     }
 }
 
